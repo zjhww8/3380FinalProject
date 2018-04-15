@@ -1,0 +1,29 @@
+#loginHeader{
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+}
+
+#usernameLogin{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: darkblue;
+}
+
+#passwordLogin{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: darkblue;
+}
+
+#submitButton{
+    font-size: 25px;
+}
+
+#informationLogin{
+    font-size: 30px;
+    color: darkblue;
+    border: 5px solid black;
+    padding: 45px;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}

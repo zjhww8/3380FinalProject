@@ -1,0 +1,131 @@
+#heading{
+    position: relative;
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+}
+
+#columnZero{
+    width: 25%;
+    float:left;
+/*    border: solid;*/
+}
+#columnOne{
+    width: 25%;
+    float:left;
+/*    border: solid;*/
+}
+
+#columnTwo{
+    width: 25%;
+    float:left;
+/*    border:solid;*/
+}
+
+#columnThree{
+    width: 25%;
+    float:left;
+/*    border:solid;*/
+}
+
+.headerButton{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#selectedButton{
+    background-color:green;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.thePages{
+    border: 5px solid black;
+}
+
+#clipArtComputerRight{
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 67%;
+}
+
+#clipArtComputerLeft{
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 27%;
+    /* The code below within this element's CSS was taken from https://css-tricks.com/snippets/css/flip-an-image/ */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#buildHeader{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+/*    position: absolute;*/
+    left: 60%;
+    top: 10%;
+    color: darkblue;
+}
+
+#buildDescription{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+
+#successLogin{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 15%;
+    position:absolute;
+    top: 1%;
+    left: 7%;
+    color: white;
+    border: 5px solid black;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.logOutButton{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 15%;
+    position: absolute;
+    top: 4%;
+    right: 7%;
+    color: white;
+    border: 5px solid black;
+    text-align: center;
+    background-color: darkblue;
+}
+
+#theSwitch{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 20%;
+    top: 45%;
+    right: 5%;
+    border: 5px solid black;
+}
+
+#toPcPart{
+    align-content: center;
+}
+

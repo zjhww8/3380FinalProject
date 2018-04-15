@@ -1,0 +1,100 @@
+#heading {
+    /*position: relative;*/
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+/*    border: 5px solid black;*/
+}
+
+#instructionStuff {
+    font-size: 27px;
+    font-family: font-family: 'Ubuntu', sans-serif;
+    color: darkblue;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    top: 17%;
+}
+
+
+/*
+#timelineOfPhotos {
+    color: darkblue;
+    top: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 27px;
+}
+*/
+
+/*
+hr{
+    width: 50%;
+    background-color: black;
+}
+*/
+
+#columnZero {
+    width: 25%;
+    float: left;
+    /*border: solid;*/
+}
+
+#columnOne {
+    width: 25%;
+    float: left;
+    /*border: solid;*/
+}
+
+#columnTwo {
+    width: 25%;
+    float: left;
+    /*border:solid;*/
+}
+
+#columnThree {
+    width: 25%;
+    float: left;
+    /*border:solid;*/
+}
+
+.headerButton {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#selectedButton {
+    background-color: green;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.thePages {
+    border: 5px solid black;
+}
+
+#clipArtComputerRight {
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 67%;
+}
+
+#clipArtComputerLeft {
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 27%;
+    /* The code below within this element's CSS was taken from https://css-tricks.com/snippets/css/flip-an-image/ */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

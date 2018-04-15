@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+            <title>LoginPage</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="error.css">
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    </head>
+    <body>
+        <center><h1 id="loginHeader">Login</h1></center>
+        
+            <center>
+            <form action="connect.php" method="post">
+                
+                <label id="usernameLogin">User Name: </label>
+                <input id="usernameLogin" type="text" name="username" required autocomplete="off">
+                <label id="passwordLogin">Password:</label>
+                <input id="passwordLogin" type="password" name="password" required autocomplete="off">
+                
+                <button id=submitButton type="submit" >Submit</button>
+                 <div id="informationLogin">
+                    The builds page is protected content and you must log in with an admin provided username and password each time to access it!
+                </div>
+            </form>
+                 <script>myfunction('username', 'password');</script>
+               
+            </center>
+    </body>
+
+</html>
+
+<script>
+new function myfunction(){
+    var adminUser = "test";
+    var adminPass = "pass";
+    
+    if('username' != adminUser || 'password' != adminPass){
+        window.alert("INCORRECT USERNAME OR PASSWORD");
+    }
+}
+
+
+</script>

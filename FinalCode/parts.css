@@ -1,0 +1,437 @@
+#heading{
+    position: relative;
+    align-content: center;
+    text-align: center;
+    font-size: 60px ;
+    font-family: 'Acme', sans-serif;
+}
+
+#columnZero{
+    width: 25%;
+    float:left;
+/*    border: solid;*/
+}
+#columnOne{
+    width: 25%;
+    float:left;
+/*    border: solid;*/
+}
+
+#columnTwo{
+    width: 25%;
+    float:left;
+/*    border:solid;*/
+}
+
+#columnThree{
+    width: 25%;
+    float:left;
+/*    border:solid;*/
+}
+
+.headerButton{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#selectedButton{
+    background-color:green;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.thePages{
+    border: 5px solid black;
+}
+
+#clipArtComputerRight{
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 67%;
+}
+
+#clipArtComputerLeft{
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 27%;
+    /* The code below within this element's CSS was taken from https://css-tricks.com/snippets/css/flip-an-image/ */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+#partsHeader{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    left: 46%;
+    top: 12%;
+    color: darkblue;
+}
+
+#partsDescription{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 24%;
+}
+
+#cpu{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+#cpuCooler{
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+#mobo{
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+#ram{
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+
+#storage{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+#gpu{
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+#case{
+    position: absolute;
+    top: 95%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+#psu{
+    position: absolute;
+    top: 105%;
+    left: 3%;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lemonchiffon;
+}
+
+#space{
+    position: absolute;
+    top: 115%;
+    padding: 12px;
+    left: 3%;
+    width: 20%;
+}
+
+#displayDiv{
+    position: absolute;
+    top: 38%;
+    padding: 80px;
+    left: 30%;
+    width: 55%;
+    height: 50%;
+    border: 5px double black;
+}
+
+#descriptionTag{
+    position: absolute;
+    top: 38%;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+    left: 57%;
+    color: darkblue;
+}
+
+#partPhotos{
+    position: absolute;
+    top: 70%;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+    left: 59%; 
+    color: darkblue;
+}
+
+#cpuInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+/*    text-align: center;*/
+}
+
+#cpup1{
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    width: 20%;
+    display: none;
+}
+
+#cpup2{
+    position: absolute;
+    top: 83%;
+    left: 65%;
+    width: 20%;
+    display: none;
+}
+
+#cpuCoolerInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+}
+
+#cpuCoolerp1{
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    width: 12%;
+    display: none;
+}
+
+#cpuCoolerp2{
+    position: absolute;
+    top: 80%;
+    left: 68%;
+    width: 13%;
+    display: none;
+}
+
+#moboInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+}
+
+#mobop1{
+    position: absolute;
+    top: 82%;
+    left: 42%;
+    width: 18%;
+    display: none;
+}
+
+#mobop2{
+    position: absolute;
+    top: 82%;
+    left: 68%;
+    width: 18%;
+    display: none;
+}
+
+#ramInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+}
+
+#ramp1{
+    position: absolute;
+    top: 81%;
+    left: 42%;
+    width: 19%;
+    display: none;
+}
+
+#ramp2{
+    position: absolute;
+    top: 81%;
+    left: 68%;
+    width: 18%;
+    display: none;
+}
+
+#storageInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+}
+
+#storagep1{
+    position: absolute;
+    top: 81%;
+    left: 42%;
+    width: 16%;
+    display: none;
+}
+
+#storagep2{
+    position: absolute;
+    top: 81%;
+    left: 68%;
+    width: 13.5%;
+    display: none;
+}
+
+#videoInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+}
+
+#videop1{
+    position: absolute;
+    top: 81%;
+    left: 42%;
+    width: 18%;
+    display: none;
+}
+
+#videop2{
+    position: absolute;
+    top: 81%;
+    left: 68%;
+    width: 20%;
+    display: none;
+}
+
+#caseInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+}
+
+#casep1{
+    position: absolute;
+    top: 81%;
+    left: 42%;
+    width: 18%;
+    display: none;
+}
+
+#casep2{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    width: 12%;
+    display: none;
+}
+
+#powerInfo{
+    position: absolute;
+    top: 52%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    left: 33%;
+    display: none;
+}
+
+#powerp1{
+    position: absolute;
+    top: 81%;
+    left: 38%;
+    width: 22%;
+    display: none;
+}
+
+#powerp2{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    width: 17%;
+    display: none;
+}

@@ -1,0 +1,189 @@
+#heading {
+    /*position: relative;*/
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+/*    border: 5px solid black;*/
+}
+
+#instructionStuff {
+    font-size: 27px;
+    font-family: font-family: 'Ubuntu', sans-serif;
+    color: darkblue;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    top: 17%;
+}
+
+
+#timelineOfPhotos {
+    color: darkblue;
+    top: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 27px;
+}
+
+hr{
+    width: 50%;
+    background-color: black;
+}
+
+#columnZero {
+    width: 25%;
+    float: left;
+    /*border: solid;*/
+}
+
+#columnOne {
+    width: 25%;
+    float: left;
+    /*border: solid;*/
+}
+
+#columnTwo {
+    width: 25%;
+    float: left;
+    /*border:solid;*/
+}
+
+#columnThree {
+    width: 25%;
+    float: left;
+    /*border:solid;*/
+}
+
+.headerButton {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#selectedButton {
+    background-color: green;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.thePages {
+    border: 5px solid black;
+}
+
+#clipArtComputerRight {
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 67%;
+}
+
+#clipArtComputerLeft {
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 27%;
+    /* The code below within this element's CSS was taken from https://css-tricks.com/snippets/css/flip-an-image/ */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#oldMac {
+    width: 15%;
+}
+
+#newGamingComputerLeft {
+    width: 22%;
+    position: absolute;
+    left: 3%;
+    top: 23%;
+    /* The code below within this element's CSS was taken from https://css-tricks.com/snippets/css/flip-an-image/ */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#newGamingComputerRight {
+    width: 22%;
+    position: absolute;
+    right: 3%;
+    top: 23%;
+}
+
+#dellOptiplex {
+    width: 15%;
+}
+
+#downArrow {
+    width: 7%;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    text-align: center;
+}
+
+#oneTimeline {
+    width: 15%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#secondTimeline {
+    width: 20%;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+#thirdTimeline {
+    width: 12%;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+#fourthTimeline {
+    width: 20%;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+}
+
+#blackline {
+    width: 50%;
+    position: absolute;
+    top: 29%;
+    left: 25%;
+}
+
+#arrowToRight1 {
+    width: 5%;
+    position: absolute;
+    top: 78%;
+    left: 20%;
+}
+
+#arrowToRight2 {
+    width: 5%;
+    position: absolute;
+    top: 78%;
+    left: 48%;
+}
+
+#arrowToRight3 {
+    width: 5%;
+    position: absolute;
+    top: 78%;
+    left: 69%;
+}
