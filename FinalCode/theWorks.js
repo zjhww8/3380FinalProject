@@ -1,6 +1,6 @@
   function loadPage(page) {
         
-     reset = document.location.href = "http://ec2-34-203-230-101.compute-1.amazonaws.com/"
+     reset = document.location.href = "http://ec2-18-233-165-90.compute-1.amazonaws.com/"
     
     if(page == 'Home'){
         document.location.href = reset + "index.html"
