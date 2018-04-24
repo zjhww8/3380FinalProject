@@ -1,77 +1,34 @@
-<!-- 
-        Created by Zachary Hess for the CS2830 Final Project at the University of Missouri 
--->
-
-<!-- 
-        Name: Zachary Hess
-        Pawprint: zjhww8
-        StudentID: 14263699
--->
-
-<!-- Main Page -->
-
-
 <!DOCTYPE html>
-
 <html>
+
     <head>
-        <title>Computers! Test Push</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="Styling.css">
-        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        
+            <title>LoginPage</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="login.css">
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     </head>
-    
     <body>
-        <header id="heading">All About Computers!</header>
-        
-        <div id="columnZero">
-            <button class="headerButton" onclick="loadPage('Home')">Home</button>
-        </div>
-        
-        <div id="columnOne">
-            <button class="headerButton" onclick="loadPage('Parts')">Parts</button>
-        </div>
-        
-        <div id="columnTwo">
-            <button class="headerButton" onclick="loadPage('Builds')">Build</button>
-        </div>
-        
-        <div id="columnThree">
-            <button class="headerButton" onclick="loadPage('History')">Feedback</button>
-        </div>
-        
-        <img id="clipArtComputerRight" src="/Photos/clipartComputer.png" alt="Clipart Computer">
-        <img id="clipArtComputerLeft" src="/Photos/clipartComputer.png" alt="Clipart Computer">
-        
-        <p id="instructionStuff">On this website you can learn all about what parts make up a computer, how to build one, and the creation and evolution of the computer! <br><br> To get started simply click on either "Parts" "Build" or "History" above! <hr></p>
-
-        <!--        <hr color="black" size="5px" width="55%">-->
-
-        <p id="timelineOfPhotos">Photographic Timeline Of The Computer Evolution</p>
-        <!--        <img id="oldMac" src="/Photos/oldmac.jpg" alt="Old Apple Computer">-->
-        <img id="newGamingComputerLeft" src="/Photos/corsairComputer.png" alt="New Gaming Computer">
-        <img id="newGamingComputerRight" src="/Photos/corsairComputer.png" alt="New Gaming Computer">
-        <!--        <img id="dellOptiplex" src="/Photos/dellOptiplex.jpeg" alt="Dell Computer">-->
-
-        <img id="downArrow" src="Photos/downArrow.png" alt="Down Arrow">
-
-        <img class="timeline" id="oneTimeline" src="Photos/oneTimeline.jpg" alt="First Generation Computer">
-        <img class="timeline" id="secondTimeline" src="Photos/secondTimeline.png" alt="Second Generation Computer">
-        <img class="timeline" id="thirdTimeline" src="Photos/thirdTimeline.jpg" alt="Third Generation Computer">
-        <img class="timeline" id="fourthTimeline" src="Photos/fourthTimeline.jpg" alt="Fourth Generation Computer">
-        <img class="arrow" id="arrowToRight1" src="Photos/arrowToRight.svg" alt="Arrow To Right">
-        <img class="arrow" id="arrowToRight2" src="Photos/arrowToRight.svg" alt="Arrow To Right">
-        <img class="arrow" id="arrowToRight3" src="Photos/arrowToRight.svg" alt="Arrow To Right">
-
-        <!--        <img id="firstComputerRoom" src="/Photos/firstComputerRoom.jpg" alt="First Computers"-->
-        
-        <script src="jquery-3.2.1.min.js"></script>
-        <script src="theWorks.js"></script>
-        
+        <center><h1 id="loginHeader">Login</h1></center>
+            <center>
+            <form action="connect.php" method="post">
+                
+                <label id="usernameLogin">User Name: </label>
+                <input id="usernameLogin" type="text" name="username" required autocomplete="off">
+                <label id="passwordLogin">Password:</label>
+                <input id="passwordLogin" type="password" name="password" required autocomplete="off">
+                
+                <button id="submitButton" type="submit" >Submit</button>
+                <div id="informationLogin">
+                    The builds page is protected content and you must log in with an admin provided username and password each time to access it!
+                </div>
+            </form>
+            <form action="home.php" method="post">
+                <button type="submit">To Home</button>
+            </form>
+            </center>
     </body>
+
 </html>
 
-
-
+<script>
