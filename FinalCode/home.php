@@ -17,7 +17,7 @@ echo "<!DOCTYPE html>\n";
 echo "\n";
 echo "<html>\n";
 echo "    <head>\n";
-echo "        <title>Computers!</title>\n";
+echo "        <title>Computers! Austin Terranova</title>\n";
 echo "        <meta charset=\"utf-8\">\n";
 echo "        <link rel=\"stylesheet\" type=\"text/css\" href=\"Styling.css\">\n";
 echo "        <link href=\"https://fonts.googleapis.com/css?family=Acme\" rel=\"stylesheet\">\n";
