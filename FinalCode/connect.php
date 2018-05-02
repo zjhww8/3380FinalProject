@@ -20,7 +20,7 @@
 	else{
 		$message = "Incorrect Login Information";
 		echo "<script type='text/javascript'>alert('$message');</script>";
-		echo "<script>setTimeout(\"location.href = 'http://localhost:8000/index.html';\",1500);</script>";
+		echo "<script>setTimeout(\"location.href = 'http://18.233.165.90/index.html';\",1500);</script>";
 	}
 
     $connect->close();

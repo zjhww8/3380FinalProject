@@ -8,7 +8,7 @@ function checkSession() {
         var ERROR = 500;
         if (xhr.readyState === DONE) {
             if (xhr.status === ERROR) {
-                document.location.href = 'http://localhost:8000/index.html';
+                document.location.href = 'http://18.233.165.90/index.html';
                 alert("Please Login or Register an Account");
             }
         }
@@ -25,7 +25,7 @@ function logoutUser(){
         var STATUS = 200;
         if (xhr.readyState === DONE) {
             if (xhr.status === STATUS) {
-                document.location.href = 'http://localhost:8000/index.html'
+                document.location.href = 'http://18.233.165.90/index.html'
             }
         }
     }
