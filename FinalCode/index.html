@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-            <title>LoginPage</title>
-            <meta charset="utf-8">
-            <link rel="stylesheet" type="text/css" href="login.css">
-            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-    </head>
-    <body>
-        <center><h1 id="loginHeader">Login</h1></center>
-            <center>
+<head>
+    <title>LoginPage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./assets/css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+</head>
+
+<body onload="checkLogin()">
+    <div id="loginPageFormBox">
+        <center>
+            <h1 id="titleHeader">Login</h1></center>
+        <center>
             <form action="connect.php" method="post">
-                
                 <label id="usernameLogin">User Name: </label>
                 <input id="usernameLogin" type="text" name="username" required autocomplete="off">
                 <label id="passwordLogin">Password:</label>
                 <input id="passwordLogin" type="password" name="password" required autocomplete="off">
-                
-                <button id="submitButton" type="submit" >Submit</button>
-                <div id="informationLogin">
-                    The builds page is protected content and you must log in with an admin provided username and password each time to access it!
-                </div>
+                <button id="submitButton" type="submit">Submit</button>
             </form>
-            <form action="home.php" method="post">
-                <button type="submit">To Home</button>
-            </form>
-            </center>
-    </body>
+        </center>
+    </div>
+    <div>
+        <center id="loginStatusBox" hidden>
+            <div> STATUS: LOGGED IN</div>
+            <button onclick="logoutUser()">LOGOUT</button>
+        </center>
+        <center>
+            <h1 id="titleHeader"><a href="home.html">Register an Account</a></h1>
+        </center>
+    </div>
+    <script src="login.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+</body>
 
 </html>
-
 <script>
