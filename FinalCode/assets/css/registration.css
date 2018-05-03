@@ -1,0 +1,30 @@
+#registrationHeader{
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+}
+
+#registerUsername{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: darkblue;
+}
+
+#registerPassword{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: darkblue;
+}
+
+#registrationSubmitButton{
+    font-size: 25px;
+}
+
+/*#informationLogin{
+    font-size: 30px;
+    color: darkblue;
+    border: 5px solid black;
+    padding: 45px;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+*/
