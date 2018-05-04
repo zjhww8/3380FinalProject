@@ -15,7 +15,7 @@
     	session_start();
     	$_SESSION["username"] = $post_username;
     	$_SESSION["id"] = $row["id"];
-	    header('Location: home.html');
+	    header('Location: ../home.html');
 	}
 	else{
 		$message = "Incorrect Login Information";

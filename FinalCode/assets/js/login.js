@@ -1,6 +1,6 @@
-function checkLogin(){
-	var xhr = new XMLHttpRequest()
-    xhr.open("POST", "check_session.php", true)
+function checkLogin() {
+    var xhr = new XMLHttpRequest()
+    xhr.open("POST", "php/check_session.php", true)
     xhr.send()
 
     xhr.onreadystatechange = function() {
@@ -8,18 +8,18 @@ function checkLogin(){
         var STATUS = 200;
         if (xhr.readyState === DONE) {
             if (xhr.status === STATUS) {
-                $(document).ready(function(){
-                	$('#loginPageFormBox').hide();
-                	$('#loginStatusBox').show();
+                $(document).ready(function() {
+                    $('#loginPageFormBox').hide();
+                    $('#loginStatusBox').show();
                 })
             }
         }
     }
 }
 
-function logoutUser(){
-	var xhr = new XMLHttpRequest()
-    xhr.open("POST", "logout_user.php", true)
+function logoutUser() {
+    var xhr = new XMLHttpRequest()
+    xhr.open("POST", "php/logout_user.php", true)
     xhr.send()
 
     xhr.onreadystatechange = function() {
@@ -28,6 +28,7 @@ function logoutUser(){
         if (xhr.readyState === DONE) {
             if (xhr.status === STATUS) {
                 document.location.href = 'http://18.233.165.90/index.html'
+                // document.location.href = 'http://localhost:8000/index.html'
             }
         }
     }

@@ -1,6 +1,6 @@
 function checkSession() {
     var xhr = new XMLHttpRequest()
-    xhr.open("POST", "check_session.php", true)
+    xhr.open("POST", "php/check_session.php", true)
     xhr.send()
 
     xhr.onreadystatechange = function() {
@@ -17,7 +17,7 @@ function checkSession() {
 
 function logoutUser(){
     var xhr = new XMLHttpRequest()
-    xhr.open("POST", "logout_user.php", true)
+    xhr.open("POST", "php/logout_user.php", true)
     xhr.send()
 
     xhr.onreadystatechange = function() {
@@ -35,22 +35,20 @@ function logoutUser(){
 
 function loadPage(page) {
 
-    reset = document.location.href = "http://ec2-18-233-165-90.compute-1.amazonaws.com/"
-
     if (page == 'Home') {
-        document.location.href = reset + "index.html"
+        document.location.href = window.location.protocol +"/home.html"
     }
 
     if (page == 'Parts') {
-        document.location.href = reset + "parts.html"
+        document.location.href = window.location.protocol +"/parts.html"
     }
 
     if (page == 'Builds') {
-        document.location.href = reset + "login.html"
+        document.location.href = window.location.protocol +"/builds.html"
     }
 
     if (page == 'History') {
-        document.location.href = reset + "history.html"
+        document.location.href = window.location.protocol +"/comments.html"
     }
 
     var buttons = document.getElementsByClassName('headerButton')
@@ -58,9 +56,6 @@ function loadPage(page) {
         if (buttons[i].innerHTML == page) {
             buttons[i].id = "selectedButton"
         }
-    else {
-        //            buttons[i].id = ""
-    }
 }
 
 $(document).ready(function() {
