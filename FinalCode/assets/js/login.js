@@ -27,8 +27,8 @@ function logoutUser() {
         var STATUS = 200;
         if (xhr.readyState === DONE) {
             if (xhr.status === STATUS) {
-                // document.location.href = 'http://18.233.165.90'
-                document.location.href = 'http://localhost:8000'
+                document.location.href = 'http://18.233.165.90'
+                // document.location.href = 'http://localhost:8000'
             }
         }
     }
