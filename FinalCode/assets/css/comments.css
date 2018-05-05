@@ -61,7 +61,6 @@ body {
     position: absolute;
     top: 1%;
     left: 27%;
-    /* The code below within this element's CSS was taken from https://css-tricks.com/snippets/css/flip-an-image/ */
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -83,14 +82,32 @@ body {
     font-size: 25px;
 }
 
-#loadedCommentsBox{
-    border: 5px solid red;
-    width: 60%;
-    float: right;
-    margin-top: 50px;
+.userCommentBox {
+    margin: 10px;
+    border: 5px solid black;
+    width: 90%;
+    padding: 10px;
 }
 
-#commentBox {
+.commentTextBox {
+    margin: 5px;
+    width: 100%;
+}
+
+#loadedCommentsBox {
+    border: 5px solid red;
+    width: 40%;
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.smallButton{
+    margin: 2px;
+}
+
+#commentBox, #editCommentBox {
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     width: 25%;
@@ -99,7 +116,7 @@ body {
     margin-top: 100px;
 }
 
-#commentBoxInput {
+#commentBoxInput, #editCommentBoxInput {
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     width: 100%;

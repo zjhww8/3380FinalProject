@@ -48,7 +48,7 @@ function loadPage(page) {
     }
 
     if (page == 'History') {
-        document.location.href = window.location.protocol +"/comments.html"
+        document.location.href = window.location.protocol +"/comments.php"
     }
 
     var buttons = document.getElementsByClassName('headerButton')

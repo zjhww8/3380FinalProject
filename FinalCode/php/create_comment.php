@@ -11,5 +11,5 @@ $sql = "INSERT INTO comments (username, comment) VALUES ('$name','$post_text')";
 $connect->query($sql);
 $connect->close();
 
-header('Location: ../comments.html')
+header('Location: ../comments.php')
 ?>

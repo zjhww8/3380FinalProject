@@ -6,8 +6,10 @@
 	$post_username = $_POST['username'];
     $post_password = $_POST['password'];
 
-    $sql = "INSERT INTO users (username, password) VALUES ('matt', 'poop')";
+    $sql = "INSERT INTO users (username, password) VALUES ('$post_username', '$post_password')";
     $users = $connect->query($sql);
 
+
+    header('Location: ../index.html');
     $connect->close();
 ?>
